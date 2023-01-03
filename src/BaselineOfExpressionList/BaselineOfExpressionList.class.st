@@ -10,7 +10,7 @@ BaselineOfExpressionList >> baseline: spec [
 	<baseline>
 	spec for: #common do: [ 
 		spec
-			package: 'Expression-List';
-			package: 'Expression-ListTest'
-			with: [ spec requires: #( 'Expression-List' ) ] ]
+			package: 'ExpressionWatcher';
+			package: 'ExpressionWatcher-Tests'
+			with: [ spec requires: #( 'ExpressionWatcher' ) ] ]
 ]
